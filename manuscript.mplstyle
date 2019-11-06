@@ -1,0 +1,67 @@
+#Author: Cameron Davidson-Pilon, replicated styles from FiveThirtyEight.com
+# See https://www.dataorigami.net/blogs/fivethirtyeight-mpl
+
+lines.linewidth: 1.25
+lines.solid_capstyle: butt
+
+legend.fancybox: False
+
+axes.prop_cycle: cycler('color', ['006BA4', 'FF800E', 'ABABAB', '595959', '5F9ED1', 'C85200', '898989', 'A2C8EC', 'FFBC79', 'CFCFCF'])
+axes.facecolor: white
+axes.labelsize: 10
+axes.axisbelow: true
+axes.grid: true
+axes.edgecolor: f0f0f0
+axes.linewidth: 1
+axes.autolimit_mode: round_number
+date.autoformatter.hour     : %m-%d %H
+axes.titlesize: 12
+xtick.labelsize : 10
+ytick.labelsize : 10
+
+
+font.family         : serif
+font.serif          : Times New Roman
+font.size           : 12
+font.style          : normal
+font.variant        : normal
+font.weight         : normal
+font.stretch        : normal
+
+patch.edgecolor: f0f0f0
+patch.linewidth: 0.5
+
+svg.fonttype: path
+
+grid.linestyle: '--'
+grid.linewidth: 0.75
+grid.color: cbcbcb
+grid.alpha: 0.8
+
+xtick.major.size: 0
+xtick.minor.size: 0
+ytick.major.size: 0
+ytick.minor.size: 0
+
+
+legend.frameon       : True 
+#legend.framealpha    : 1
+legend.facecolor :  f0f0f0
+
+savefig.edgecolor: f0f0f0
+savefig.facecolor: ffffff
+
+figure.subplot.left: 0.08
+figure.subplot.right: 0.95
+figure.subplot.bottom: 0.07
+figure.facecolor: f0f0f0
+figure.titlesize : 12
+figure.dpi: 100
+figure.frameon: False
+
+# Save Figure Settings
+
+savefig.bbox : standard
+savefig.dpi  : 300
+
+
